@@ -7,6 +7,13 @@ Predict face angles (Yaw, Pitch, Roll) from images and visualize landmarks and h
 ## 1️⃣ Project Overview
 This project uses a combination of **Mediapipe** and **SVR / MultiOutputRegressor** to estimate facial pose angles from images. It draws both the face landmarks and the 3D axes on the nose.
 
+This project estimates head pose (Yaw, Pitch, Roll) from facial images using:
+
+Mediapipe → for landmark extraction and visualization.
+
+SVR / MultiOutputRegressor → for regression-based angle prediction.
+
+It visualizes the 468 facial landmarks and overlays 3D axes on the nose to show orientation.
 ---
 
 ## 2️⃣ Features
