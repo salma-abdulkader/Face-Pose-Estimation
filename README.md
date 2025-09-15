@@ -41,7 +41,6 @@ pip install -r requirements.txt
 # Python 3.9+ recommended
 pip install numpy pandas matplotlib seaborn scikit-learn opencv-python mediapipe h5py
 
-
 ---
 
 ## 5️⃣ Models
