@@ -31,3 +31,5 @@ This project uses a combination of **Mediapipe** and **SVR / MultiOutputRegresso
 ## 4️⃣ Installation
 ```bash
 pip install -r requirements.txt
+# Python 3.9+ recommended
+pip install numpy pandas matplotlib seaborn scikit-learn opencv-python mediapipe h5py
