@@ -65,28 +65,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn opencv-python mediapipe
 
 - **3D Axes:**  
   Drawn on the nose tip to show head orientation:  
-  - **Red → X-axis (Yaw → left/right rotation)**  
-  - **Green → Y-axis (Pitch → up/down rotation)**  
-  - **Blue → Z-axis (Roll → head tilt)**  
+  - **Red → X-axis (Yaw → left/right r**
 
-- Works for both **images** and **videos** in real-time.  
-
----
-
-## 7️⃣ Results
-- **Yaw**: Achieved highest accuracy with **Random Forest**.  
-- **Pitch & Roll**: Improved with **SVR** after proper preprocessing.  
-- Visual overlays confirm the head pose prediction matches the ground truth visually.  
-
----
-
-## 8️⃣ Future Work
-- Improve **Pitch** angle estimation with advanced preprocessing.  
-- Experiment with **deep learning** models (CNNs, ResNet, Vision Transformers).  
-- Develop a **real-time application** with webcam integration.  
-- Train and evaluate on **larger datasets** for robustness.  
-
----
-
-## 9️⃣ Project Structure
 
