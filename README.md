@@ -30,18 +30,19 @@ It visualizes the 468 facial landmarks and overlays 3D axes on the nose to show 
 ---
 
 ## 3️⃣ Requirements (Libraries Used)
-Python 3.8+ (recommended)
-numpy
-pandas
-scipy
-matplotlib
-seaborn
-scikit-learn
-opencv-python (cv2)
-mediapipe (FaceMesh)
-h5py / scipy.io (for reading .mat files)
-pickle (for saving/loading models)
-(Optional in Google Colab): from google.colab import files, cv2_imshow
+- Python 3.8+ (recommended)
+- numpy
+- pandas
+- scipy
+- matplotlib
+- seaborn
+- scikit-learn
+- opencv-python (cv2)
+- mediapipe (FaceMesh)
+- h5py / scipy.io (for reading .mat files)
+- pickle (for saving/loading models)
+- (Optional in Google Colab): from google.colab import files, cv2_imshow
+
 In the notebook, mediapipe was sometimes pinned to a specific version (e.g., mediapipe==0.10.18) to avoid compatibility issues.
 ---
 
