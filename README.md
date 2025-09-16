@@ -49,7 +49,7 @@ In the notebook, mediapipe was sometimes pinned to a specific version (e.g., med
 ## 2️⃣ Dataset Structure
 Expected directory layout (example using AFLW2000-3D):
 
-... 
+'''
 aflw2000-3d/
   AFLW2000/
     image00001.jpg
@@ -57,6 +57,7 @@ aflw2000-3d/
     image00002.jpg
     image00002.mat
     ...
+    '''
     
 - Each .mat file contains a variable Pose_Para that stores Pitch, Yaw, Roll.
 ---
