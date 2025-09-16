@@ -16,16 +16,7 @@ It visualizes the 468 facial landmarks and overlays 3D axes on the nose to show 
 
 ---
 
-## 2️⃣ Features
-- **Predict Yaw, Pitch, Roll** for any input image.
-- **Draw face landmarks** on the detected face.
-- **Draw axes** at the nose to visualize head orientation.
-- **Preprocessing** of landmarks for normalization and centering.
-- Handles **single image prediction** and dataset-based training.
-
----
-
-## 3️⃣ What the Notebook Does ?!
+## 2️⃣ What the Notebook Does ?!
 - Load face images and their corresponding pose parameters from **.mat** files (e.g., AFLW2000-3D dataset).
 - Extract facial landmarks using **MediaPipe FaceMesh**.
 - Preprocess landmarks into feature vectors.
@@ -38,10 +29,36 @@ It visualizes the 468 facial landmarks and overlays 3D axes on the nose to show 
 
 ---
 
-## 4️⃣ Installation
-```bash
-pip install -r requirements.txt
-# Python 3.9+ recommended
-pip install numpy pandas matplotlib seaborn scikit-learn opencv-python mediapipe h5py
-
+## 3️⃣ Requirements (Libraries Used)
+Python 3.8+ (recommended)
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+opencv-python (cv2)
+mediapipe (FaceMesh)
+h5py / scipy.io (for reading .mat files)
+pickle (for saving/loading models)
+(Optional in Google Colab): from google.colab import files, cv2_imshow
+In the notebook, mediapipe was sometimes pinned to a specific version (e.g., mediapipe==0.10.18) to avoid compatibility issues.
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
