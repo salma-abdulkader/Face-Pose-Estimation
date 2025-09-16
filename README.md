@@ -1,4 +1,4 @@
-# Face Pose Estimation
+# 3D Face Pose Studio -- README
 
 Predict face angles (Yaw, Pitch, Roll) from images and visualize landmarks and head pose axes.
 
