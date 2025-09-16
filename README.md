@@ -42,29 +42,3 @@ pip install -r requirements.txt
 pip install numpy pandas matplotlib seaborn scikit-learn opencv-python mediapipe h5py
 
 ---
-
-## 5️⃣ Models
-- **Support Vector Regression (SVR):**  
-  Trained separately for each angle (Yaw, Pitch, Roll) with different hyperparameters.  
-
-- **MultiOutputRegressor (SVR):**  
-  Wraps around SVR to predict all three angles simultaneously.  
-
-- **Random Forest Regressor:**  
-  Used as a baseline for comparison with traditional ensemble learning.  
-
-**Evaluation Metrics:**  
-- **Mean Squared Error (MSE):** Measures prediction error.  
-- **R² Score:** Explains how well the model fits the data.  
-
----
-
-## 6️⃣ Visualization
-- **Landmarks:**  
-  Extracted using **Mediapipe** and drawn in **green** on the detected face.  
-
-- **3D Axes:**  
-  Drawn on the nose tip to show head orientation:  
-  - **Red → X-axis (Yaw → left/right r**
-
-
