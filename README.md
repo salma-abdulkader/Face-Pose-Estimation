@@ -56,7 +56,6 @@ aflw2000-3d/
     image00002.jpg
     image00002.mat
     ...
-
     
 - Each .mat file contains a variable Pose_Para that stores Pitch, Yaw, Roll.
 ---
