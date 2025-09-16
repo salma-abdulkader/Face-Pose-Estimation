@@ -35,15 +35,6 @@ It visualizes the 468 facial landmarks and overlays 3D axes on the nose to show 
 
 ---
 
-## 2️⃣ Features
-- **Predict Yaw, Pitch, Roll** for any input image.
-- **Draw face landmarks** on the detected face.
-- **Draw axes** at the nose to visualize head orientation.
-- **Preprocessing** of landmarks for normalization and centering.
-- Handles **single image prediction** and dataset-based training.
-
----
-
 ## 4️⃣ Installation
 ```bash
 pip install -r requirements.txt
