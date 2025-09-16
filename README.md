@@ -25,13 +25,16 @@ It visualizes the 468 facial landmarks and overlays 3D axes on the nose to show 
 
 ---
 
-## 3️⃣ Dataset
-- **AFLW2000-3D dataset** used for training and evaluation.  
-- Data includes **68 facial landmarks** and **3D pose annotations**.  
-- Preprocessing includes:
-  - Centering landmarks around the nose.
-  - Normalizing based on face dimensions.
-  - Computing extra geometric features.
+## 3️⃣ What the Notebook Does ?!
+- Load face images and their corresponding pose parameters from **.mat** files (e.g., AFLW2000-3D dataset).
+- Extract facial landmarks using **MediaPipe FaceMesh**.
+- Preprocess landmarks into feature vectors.
+- Build a DataFrame linking image IDs, features, and target angles.
+- Split data into training/testing sets.
+- Train and evaluate a multi-output regression model **(SVR)**.
+- Save the trained model for reuse.
+- Visualize landmarks and draw 3D axes (head pose) on faces.
+- Run live demo via webcam or video, overlaying pose axes in real time.
 
 ---
 
